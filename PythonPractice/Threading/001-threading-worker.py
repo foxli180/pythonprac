@@ -10,7 +10,8 @@ import time
 def worker(num):
     print(time.ctime())
     print('Worker: '+ str(num))
-    
+    time.sleep(2)
+    print(time.ctime())
     
 ths = [threading.Thread(target = worker, args=(i,)) for i in range(5)]
 
