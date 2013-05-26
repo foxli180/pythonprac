@@ -33,5 +33,5 @@ sender.start()
 sender.join()
 
 print('waitting for', receiver.name)
-signal.alarm(2)
+signal.alarm(3)
 receiver.join()
