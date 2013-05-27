@@ -35,3 +35,22 @@ sorty = sorted(x, key = lambda k: int(k.split('.')[3]))
 print ('\n---------------------------------\n')
 for m in sorty:
     print(m)
+
+
+'''
+another way to use lambda
+'''
+
+alist = [1,2,3,4,5,6,7,8,9,]
+low = 3
+high = 7
+
+t = filter(lambda x: high>x>low, alist)
+print(list(t))
+
+'''
+using list express to do same as lambda
+'''
+t2 = [item for item in alist if high>item>low]
+print (t2)
+
