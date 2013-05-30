@@ -20,7 +20,7 @@ def say_hello(name):
 def main():
     p = Process(target = say_hello, args = ('Fox',))
     p.start()
-    print('not join')
+    print('not join!')
     p.join()
     print('joined')
     

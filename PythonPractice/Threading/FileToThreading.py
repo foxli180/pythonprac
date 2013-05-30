@@ -60,7 +60,7 @@ if __name__ == '__main__':
             count = count +1
     s=sorted(s)      
     print ("total panel: " +str(count))
-    print ('PanelID'+'\t\t'+'MacAddress'+'\t\t\t'+'IPAddress')
+    print ('PanelID'+'\t\t'+'MacAddress'+'\t\t\t'+'IPAddress ')
     print ('-'*70)
     for eachpanel in s:
         #pass

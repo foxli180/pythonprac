@@ -13,7 +13,7 @@ def info(title):
     print('module name: ', __name__)
     
     if hasattr(os,'getppid'):
-        print('Parent Process: ', os.getppid())
+        print('Parent Process : ', os.getppid())
     print('process ID: ', os.getpid())
 
 def f (name):

@@ -16,7 +16,7 @@ def f(x):
 
 def main():
     p = Pool(4,initializer = satr_process,maxtasksperchild = 3)
-    output = p.map(f,[1,2,3,4,5,6,7,8,9,10])
+    output = p.map(f,[1,2,3,4,5,6,7,8,9,10,11])
     print(output)
     
 if __name__ == '__main__':main()

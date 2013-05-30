@@ -11,7 +11,7 @@ loops = [4,2,3,2]
 def loop(nloop,nsec):
     print('start loop', nloop,'at: ', ctime())
     sleep(nsec)
-    print('loop', nloop, 'done at: ',ctime())
+    print('loop', nloop, 'done at : ',ctime())
     
 def main():
     

@@ -32,7 +32,7 @@ using lambda to solve it, now we can get the expected result
 '''
 sorty = sorted(x, key = lambda k: int(k.split('.')[3]))
 
-print ('\n---------------------------------\n')
+print ('\n----------------------------------\n')
 for m in sorty:
     print(m)
 
